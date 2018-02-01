@@ -1,0 +1,16 @@
+title: DXA playbook
+description: Digital Exchange Australia playbook
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://playbook.ausdx.tk" # the base hostname & protocol for your site, e.g. http://example.com
+
+
+# Build settings
+destination: site
+keep_files: [css]
+markdown: kramdown
+theme: minima
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README

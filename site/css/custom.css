@@ -1,0 +1,122 @@
+.hero_header
+{
+	margin-bottom: 0px !important;
+}
+.api_data IMG
+{
+	max-width: 100%;
+}
+:target
+{
+	outline: 0px !important;
+}
+.api_nav P
+{
+	border-bottom: 1px solid lightgray;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	font-size: large;
+	font-weight: bold;
+	margin-bottom: 0px;
+	margin-top: 20px;
+}
+.api_nav LI
+{
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+	font-size: smaller;
+}
+.api_data
+{
+	border-left: 1px solid lightgray;
+	margin-left: -1px;
+}
+.api_nav
+{
+	border-right: 1px solid lightgray;
+}
+.api_data H2
+{
+	margin-bottom: 0px;
+}
+BLOCKQUOTE
+{
+	background-color: lightgray;
+	width: 100%;
+	margin: 0px;
+}
+CODE
+{
+	background: lightgray;
+	font-style: italic;
+	color: darkred;
+	padding: 4px;
+	padding-right: 8px;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active)
+{
+	.uikit-footer
+	{
+		border-top: 0px !important;
+	}
+	.ie_footer_hook
+	{
+		background-color: #DDD;
+		height: 130px;
+		border-top: 6px solid #555;
+		padding-top: 20px;
+	}
+}
+.detail_pagination
+{
+	padding-top: 10px;
+	height: 100px;
+	margin-bottom: 20px;
+	background-color: #EEE;
+	border-top: 1px solid lightgray;
+}
+.detail_pagination .prev_detail_page
+{
+	float: left;
+	padding: 20px;
+	width: 35%;
+}
+.detail_pagination .next_detail_page
+{
+	float: right;
+	padding: 20px;
+	text-align: right;
+	width: 35%;
+}
+.page_nav_label
+{
+	font-size: x-large;
+	margin-top: -15px;
+}
+.page_nav_title
+{
+	font-size: smaller;
+}
+.next_detail_page .page_nav_label::after
+{
+	content: ' >';
+	color: #5BCBE3;
+	font-weight: bold;
+	font-size: xx-large;
+}
+.prev_detail_page .page_nav_label::before
+{
+	content: '< ';
+	color: #5BCBE3;
+	font-weight: bold;
+	font-size: xx-large;
+}
+.api_nav .current_page
+{
+	background: #25655A;
+	padding-left: 10px;
+}
+.api_nav .current_page A
+{
+	color: white;
+}
