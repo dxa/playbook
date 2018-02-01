@@ -2,6 +2,15 @@
 {
 	margin-bottom: 0px !important;
 }
+.page_head
+{
+	font-size: 3rem;
+}
+.sub_head
+{
+	font-size: larger;
+	color: gray;
+}
 .api_data IMG
 {
 	max-width: 100%;

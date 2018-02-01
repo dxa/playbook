@@ -5,7 +5,6 @@ url: "https://playbook.ausdx.tk" # the base hostname & protocol for your site, e
 
 
 # Build settings
-destination: site
 keep_files: [css]
 markdown: kramdown
 theme: minima
