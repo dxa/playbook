@@ -4,9 +4,10 @@ title: Welcome
 section: root
 ---
 
-## Welcome to the DXA Digital Community playbook
+{:.page_head}
+# Guides
 
-The playbook is a series of guides
+{% include cards-open.html %}
+{% include card.html href="format.html" title="Choosing a message format" text="Read about the different types of messaging formats that are commonly used, and what they are usually used for." %}
 
-
-- [Choosing a messaging format](format.html)
+{% include cards-close.html %}

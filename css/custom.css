@@ -129,3 +129,170 @@ CODE
 {
 	color: white;
 }
+.cards__list > .cards__list__item
+{
+	margin-bottom: 1em;
+	margin-top: 1em;
+	display: block;
+	float: left;
+	-ms-flex-preferred-size: 100%;
+	flex-basis: 100%;
+	border: 1px solid #555;
+}
+.card__headline
+{
+	display: inline;
+	border-bottom: solid 1px #1B7991;
+}
+.card__headline__wrapper
+{
+	margin: 1em;
+}
+.card__text
+{
+	margin: 1em;
+}
+.cards__list__item:hover
+{
+	background: #5BCBE3;
+}
+.card__wrapper
+{
+	background: white !important;
+}
+@media screen and (min-width: 768px)
+{
+	.cards__list__item
+	{
+		margin-right: 2em;
+	}
+	.format__support__text
+	{
+	}
+	.format__group
+	{
+		background: #EEE;
+		/*text-align: left;*/
+	}
+	.format__unsupported:after
+	{
+		text-align: left !important;
+		margin-left: -1.1rem;
+	}
+	.format__supported:after
+	{
+		text-align: left !important;
+		margin-left: -1.1rem;
+	}
+	.format__maybe:after
+	{
+		text-align: left !important;
+		margin-left: -1.1rem;
+	}
+	.format__group .format
+	{
+		text-align: left;
+	}
+	.hide_from_desktop
+	{
+		display: none;
+	}
+}
+@media screen and (max-width: 768px)
+{
+	.detail__row
+	{
+		display: none;
+	}
+	.format__support__text
+	{
+		display: none;
+	}
+}
+.format__unsupported:before
+{
+	content: "✖ ";
+	color: red;
+	text-align: center;
+	/*display: block;*/
+}
+.format__supported:before
+{
+	content: "✔ ";
+	color: green;
+	text-align: center;
+	/*display: block;*/
+	/*margin-left: 1rem;*/
+}
+.format__maybe:before
+{
+	content: "? ";
+	font-weight: 900;
+	color: orange;
+	text-align: center;
+	/*display: block;*/
+}
+.format
+{
+	text-align: center;
+}
+.detail__row .format
+{
+	text-align: left !important;
+}
+/*.detail__row .format .format__unsupported:after
+{
+	content: "";
+}*/
+.detail__row .format .format__unsupported:before
+{
+	content: "✖ ";
+	color: red;
+}
+/*.detail__row .format .format__supported:after
+{
+	content: "";
+}*/
+.detail__row .format .format__supported:before
+{
+	content: "✔ ";
+	color: green;
+}
+/*.detail__row .format .format__maybe:after
+{
+	content: "";
+}*/
+.detail__row .format .format__maybe:before
+{
+	content: "? ";
+	font-weight: bold;
+	color: orange;
+}
+.format__row
+{
+	border-top: 1px solid #CCC;
+}
+.format__group
+{
+	font-weight: bold;
+}
+.format__row:first-child
+{
+	border-top: none;
+}
+.format__row:last-child
+{
+	margin-bottom: 2rem;
+}
+.detail__row DIV:first-child
+{
+	padding-left: 2rem;
+	margin-left: 0px;
+	text-indent: 0px;
+}
+.detail__row
+{
+	font-size: smaller;
+	/*margin-left: 1.25em;*/
+	/*text-indent: -1.25em;*/
+}
