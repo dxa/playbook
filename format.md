@@ -17,7 +17,6 @@ It's important to balance between a format that is a good fit for your exchange 
   <h2 class="uikit-inpage-nav-links__heading uikit-display-2">Contents</h2>
   <ul class="uikit-link-list">
     <li><a href="#choose">Choosing your preference</a></li>
-    <li><a href="#consult">Consult with you community</a></li>    
     <li><a href="#detail">A very detailed comparison of formats</a></li>
     <li><a href="#examples">Examples</a></li>
   </ul>
@@ -56,30 +55,6 @@ Citizens and businesses are increasingly interacting online, and from mobile dev
 
 On the flip side, choosing a format that expressly prevents online, mobile or cloud use might inhibit innovation.
 
-<a name="consult"/>
-## Consult with your community
-
-### Share your position
-
-Once you have chosen a format that you think suits the types of interactions you'll be having, and that you can support, it's time to share your perspectives.
-
-Clearly describe what your preference is, and why you think it will work well for the community.
-
-Find a way to share your thoughts with your community, and allow them to share theirs.
-
-Email seems like an easy way to this, but it probably isn't. Try to do it face-to-face, virtually, or over a teleconference.
-
-### Listen to their opinions
-
-It's really important to remember that Government is only one half of the equation, and the opinions of others are also very important.
-
-There is no point in choosing a format that works well for you, but is prohibitively expensive or difficult for others, if no one consumes your services.
-
-### Collectively decide on the best option
-
-Once your community has had time to think about your position, and been given the opportunity to share theirs, it's time to choose the option that works the best for everyone.
-
-It's likely that not everyone in your community will be able to support the same format, but it's important to make things work for as many people as possible.
 
 <a name="detail"/>
 ## A very detailed comparison
