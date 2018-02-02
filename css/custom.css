@@ -319,3 +319,20 @@ CODE
 {
 	margin-bottom: 3em;
 }
+.definition__table TD:first-child
+{
+	width: 25%;
+	background: #EEE;
+}
+.definition__table
+{
+	background: #FFF;
+}
+.definition__table TD
+{
+	padding: 1rem;
+}
+.definition__table TR
+{
+	height: auto;
+}

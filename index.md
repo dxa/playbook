@@ -17,4 +17,6 @@ section: root
 
 {% include card.html href="format.html" title="Choosing a message format" text="Read about the different types of messaging formats that are commonly used, and what they are usually used for" img="img\/format.png" %}
 
+{% include card.html href="definitions.html" title="Writing good data definitions" text="Take a look at our suggestions for writing clear, simple and reusable data definitions" img="img\/standards.png" %}
+
 {% include cards-close.html %}
