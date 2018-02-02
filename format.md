@@ -17,7 +17,8 @@ It's important to balance between a format that is a good fit for your exchange 
   <h2 class="uikit-inpage-nav-links__heading uikit-display-2">Contents</h2>
   <ul class="uikit-link-list">
     <li><a href="#choose">Choosing your preference</a></li>
-    <li><a href="#consult">Consult with you community</a></li>
+    <li><a href="#consult">Consult with you community</a></li>    
+    <li><a href="#detail">A very detailed comparison of formats</a></li>
     <li><a href="#examples">Examples</a></li>
   </ul>
 </nav>
@@ -29,7 +30,7 @@ It's important to balance between a format that is a good fit for your exchange 
 
 While all formats can represent any type of information, they do have different characteristics that change how well suited they are to different types of problems.
 
-Here is a very simplified comparison of some prominently used formats, and how they perform in different circumstances:
+Here is a very simplified comparison of some prominently used formats, and how they perform in different circumstances. A [much more detailed table](#detail) is at the end of the page:
 
 | | JSON| XML | CSV | XBRL |
 |-------|--------|---------|
@@ -38,9 +39,6 @@ Here is a very simplified comparison of some prominently used formats, and how t
 | Industry support | The industry's preferred message format | Globally supported | Available everywhere, but very rigid and inflexible | Very small and niche community. Very little commercial or open source tooling available |
 | Self describing | Through alternate design-time mechanisms like JSON Schema and Swagger | Capable of describing complex, simple and primitive types with metadata | Very limited, column based | Capable of describing attributes, facts, units and types to a very granular level |
 
-### A very detailed comparison
-
-Here is [a very detailed comparison](detailed_formats.html) between formats.
 
 ### What formats can your tools support
 
@@ -82,6 +80,11 @@ There is no point in choosing a format that works well for you, but is prohibiti
 Once your community has had time to think about your position, and been given the opportunity to share theirs, it's time to choose the option that works the best for everyone.
 
 It's likely that not everyone in your community will be able to support the same format, but it's important to make things work for as many people as possible.
+
+<a name="detail"/>
+## A very detailed comparison
+
+{% include detailed_formats.md %}
 
 <a name="examples"/>
 ## Some example formats
@@ -176,5 +179,3 @@ You should choose the option that was designed to solve the types of problems yo
   </prsnstrcnm1.02.00:PersonNameDetails>
 
 ```
-
-<a class="uikit-direction-link uikit-direction-link--left" href="/">Back</a>

@@ -2,6 +2,10 @@
 {
 	margin-bottom: 0px !important;
 }
+.uikit-link-list LI A
+{
+	margin-left: 2rem;
+}
 .page_head
 {
 	font-size: 3rem;
@@ -138,6 +142,7 @@ CODE
 	-ms-flex-preferred-size: 100%;
 	flex-basis: 100%;
 	border: 1px solid #555;
+	padding: 0px;
 }
 .card__headline
 {
@@ -159,12 +164,15 @@ CODE
 .card__wrapper
 {
 	background: white !important;
+	height: 190px;
+	/*margin-bottom: 1rem;*/
 }
 @media screen and (min-width: 768px)
 {
 	.cards__list__item
 	{
 		margin-right: 2em;
+		/*height: 300px;*/
 	}
 	.format__support__text
 	{
@@ -208,6 +216,10 @@ CODE
 	{
 		display: none;
 	}
+	.card__image
+	{
+		display: none;
+	}
 }
 .format__unsupported:before
 {
@@ -240,28 +252,16 @@ CODE
 {
 	text-align: left !important;
 }
-/*.detail__row .format .format__unsupported:after
-{
-	content: "";
-}*/
 .detail__row .format .format__unsupported:before
 {
 	content: "✖ ";
 	color: red;
 }
-/*.detail__row .format .format__supported:after
-{
-	content: "";
-}*/
 .detail__row .format .format__supported:before
 {
 	content: "✔ ";
 	color: green;
 }
-/*.detail__row .format .format__maybe:after
-{
-	content: "";
-}*/
 .detail__row .format .format__maybe:before
 {
 	content: "? ";
@@ -295,4 +295,27 @@ CODE
 	font-size: smaller;
 	/*margin-left: 1.25em;*/
 	/*text-indent: -1.25em;*/
+}
+.card__image
+{
+	position: relative;
+	/*left: -12px;*/
+	width: 100% !important;
+}
+.coming_soon:after
+{
+	content: "Coming\00a0Soon!";
+	background: #197BBD;
+	padding: 0.5em;
+	color: white;
+	border-radius: 1em;
+	position: relative;
+	top: -0.5em;
+	font-size: x-small;
+	font-weight: bold;
+	margin-left: 0.5em;
+}
+.back__link
+{
+	margin-bottom: 3em;
 }

@@ -1,14 +1,7 @@
----
-layout: base
-title: Detailed messaging format table
-section: root
----
 
-<h1 class="page_head">Detailed message format comparison</h1>
-
-<p class="sub_head">Here is a breakdown of how each format handles a range of commonly needed tasks.</p>
-<p class="sub_head">Just because a technology isn't 100% supported doesn't mean it's not suitable, but it might cost you and your community more.</p>
-<p class="sub_head">This list isn't an authoritative source, but it is based on our experiences with the technologies. Let us know if you disagree with our findings, and we can talk about changing things.</p>
+<p>Here is a breakdown of how each format handles a range of commonly needed tasks.</p>
+<p>Just because a technology isn't 100% supported doesn't mean it's not suitable, but it might cost you and your community more.</p>
+<p>This list isn't an authoritative source, but it is based on our experiences with the technologies. Let us know if you disagree with our findings, and we can talk about changing things.</p>
 
 
 <div class="uikit-page-alerts uikit-page-alerts--warning hide_from_desktop" role="alert">
@@ -280,5 +273,3 @@ section: root
   <div class="grids col-xs-2 format"><span class="format__supported">Yes</span></div>
 </div>
 </div>
-
-<a class="uikit-direction-link uikit-direction-link--left" href="format.html">Back</a>
