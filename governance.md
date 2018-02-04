@@ -13,8 +13,10 @@ Every community exists to solve a different problem, and they should be free to 
 This playbook contains advice and things you can reuse, but ultimately the decisions are up to you and your community.
 
 
+{% include guide_nav.html %}
 
-### Choosing a governing entity
+
+## Choosing a governing entity
 
 There are a couple of likely options that your community may take to form it's governing entity:
 
@@ -28,14 +30,14 @@ Where a community largely exists to enable interaction with Government, it's lik
 
 Where a community exists to enable a peer-to-peer exchange, the governing entity will likely be and industry body or self-elected group of representatives.
 
-### Responsibilities of the governing entity
+## Responsibilities of the governing entity
 
 - Helping new participants join the community
 - Deciding on the change management processes, and how the community operates
 - Resolving disputes between members
 - Representing their community in governance between communities
 
-### Governance between communities
+## Governance between communities
 
 It is likely that your community will reuse and leverage work from others, and that's a good thing.
 

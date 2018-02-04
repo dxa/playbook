@@ -13,16 +13,8 @@ A message format specifies the representation of data as it's exchanged.
 It's important to balance between a format that is a good fit for your exchange patterns, and one that your community can support.
 
 
-<nav class="uikit-inpage-nav-links">
-  <h2 class="uikit-inpage-nav-links__heading uikit-display-2">Contents</h2>
-  <ul class="uikit-link-list">
-    <li><a href="#choose">Choosing your preference</a></li>
-    <li><a href="#detail">A very detailed comparison of formats</a></li>
-    <li><a href="#examples">Examples</a></li>
-  </ul>
-</nav>
+{% include guide_nav.html %}
 
-<a name="choose"/>
 ## Choosing your preference
 
 ### What format suits your needs
@@ -55,13 +47,10 @@ Citizens and businesses are increasingly interacting online, and from mobile dev
 
 On the flip side, choosing a format that expressly prevents online, mobile or cloud use might inhibit innovation.
 
-
-<a name="detail"/>
 ## A very detailed comparison
 
 {% include detailed_formats.md %}
 
-<a name="examples"/>
 ## Some example formats
 
 Some formats are simple, others are more verbose.

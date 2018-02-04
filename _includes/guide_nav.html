@@ -1,0 +1,14 @@
+<nav class="uikit-inpage-nav-links">
+  <h2 class="uikit-inpage-nav-links__heading uikit-display-2">Contents</h2>
+  <ul class="uikit-link-list">
+{% assign lines = page.content | jsonify | split: "\n" %}
+{% for line in lines %}
+  {% assign a = line | split: ' ' %}
+  {% if a[0] == '##' %}
+    {% assign text = line | replace: '## ', '' %}
+    {% assign href = text | downcase |  remove: "'" | replace: ' ', '-' %}
+    <li><a href="#{{href}}">{{text}}</a></li>
+  {% endif %}
+{% endfor %}
+  </ul>
+</nav>

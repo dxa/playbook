@@ -9,18 +9,9 @@ section: root
 {:.sub_head}
 Regardless of the governance method you've chosen, you need to take the rest of the communities opinions into account
 
-<nav class="uikit-inpage-nav-links">
-  <h2 class="uikit-inpage-nav-links__heading uikit-display-2">Contents</h2>
-  <ul class="uikit-link-list">
-    <li><a href="#share">Share your position</a></li>
-    <li><a href="#listen">Listen to their opinions</a></li>
-    <li><a href="#decide">Decide together</a></li>
-  </ul>
-</nav>
+{% include guide_nav.html %}
 
 
-
-<a name="share" />
 ## Share your position
 
 Once you have chosen a standpoint that you think suits what you need and will work for others, it's time to share your perspectives.
@@ -31,7 +22,6 @@ Find a way to share your thoughts with your community, and allow them to share t
 
 Email seems like a good way to this, but it probably isn't. Try to do it face-to-face, virtually, or over a teleconference.
 
-<a name="listen" />
 ## Listen to their opinions
 
 It's really important to remember that Government is only one half of the equation, and the opinions of others are also very important.
@@ -40,7 +30,6 @@ There is no point in choosing an option that works well for you, but is prohibit
 
 Data exchange takes two, after all.
 
-<a name="decide" />
 ## Decide together
 
 Once your community has had time to think about your position, and been given the opportunity to share theirs, it's time to choose the option that works the best for everyone.

@@ -12,8 +12,9 @@ A community is group of parties who want to exchange digital data with one anoth
 {:.sub_head}
 There aren't any specific rules on who can form a community, but here is an overview of the key parts.
 
+{% include guide_nav.html %}
 
-### Communities are not agencies
+## Communities are not agencies
 
 It's easy to think of a community aligning directly to an agency, but this isn't what communities are for.
 
