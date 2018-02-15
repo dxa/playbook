@@ -4,7 +4,7 @@ title: Choosing a messaging format
 section: root
 ---
 {:.page_head}
-# Deciding on a messaging format
+# Proposing a messaging format
 
 {:.sub_head}
 A message format specifies the representation of data as it's exchanged.
