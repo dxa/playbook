@@ -7,19 +7,20 @@ section: root
 {:.page_head}
 # Things in the playbook
 
-{% include cards-open.html %}
+{:.collection}
+![Community](img/community.svg)
+- [New to communities?](community.html) Learn about communities, and how to join or create one
+- [Consulting with your community](consult.html) No matter what governance model your community has, it's important to take the opinions of others into account
 
-{% include card.html href="community.html" title="New to communities?" text="Learn about communities, and how to join or create one" img="img/community.svg" %}
+{:.collection}
+![Governance](img/governance.svg)
+- [Self governance](governance.html) Every community governs themselves. Here are some approaches to take
 
-{% include card.html href="governance.html" title="Self governance" text="Every community governs themselves. Here are some approaches to take." img="img/governance.svg" %}
+{:.collection}
+![Standards](img/standards.svg)
+- [Making a decision and setting a standard](decisions.html) Once you've proposed an idea to your community, and had a chance to hear theirs, it's up to you to choose
+- [Writing good data definitions](definitions.html) Take a look at our suggestions for writing clear, simple and reusable data definitions
 
-{% include card.html href="consult.html" title="Consulting with your community" text="No matter what governance model your community has, it's important to take the opinions of others into account" img="img/governance.svg" %}
-
-{% include card.html href="decisions.html" title="Making a decision and setting a standard" text="Once you've proposed an idea to your community, and had a chance to hear theirs, it's up to you to choose" img="img/standards.svg" %}
-
-{% include card.html href="format.html" title="Proposing a message format" text="Read about the different types of messaging formats that are commonly used, and what they are usually used for" img="img/format.svg" %}
-
-{% include card.html href="definitions.html" title="Writing good data definitions" text="Take a look at our suggestions for writing clear, simple and reusable data definitions" img="img/standards.svg" %}
-
-
-{% include cards-close.html %}
+{:.collection}
+![Technology](img/technology.svg)
+- [Proposing a message format](format.html) Read about the different types of messaging formats that are commonly used, and what they are usually used for

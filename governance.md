@@ -3,6 +3,10 @@ layout: base
 title: Self Governance
 section: root
 ---
+{:.collection}
+![Governance](img/governance.svg)
+
+
 {:.page_head}
 # Self Governance
 

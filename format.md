@@ -3,6 +3,11 @@ layout: base
 title: Choosing a messaging format
 section: root
 ---
+
+{:.collection}
+![Technology](img/technology.svg)
+
+
 {:.page_head}
 # Proposing a messaging format
 

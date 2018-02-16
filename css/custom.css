@@ -133,6 +133,10 @@ CODE
 {
 	color: white;
 }
+.cards
+{
+	clear: both;
+}
 .cards__list > .cards__list__item
 {
 	margin-bottom: 1em;
@@ -205,6 +209,10 @@ CODE
 	{
 		display: none;
 	}
+	P.collection IMG
+	{
+		max-width: 50%;
+	}
 }
 @media screen and (max-width: 768px)
 {
@@ -220,6 +228,10 @@ CODE
 	{
 		/*display: none;*/
 	}
+}
+P.collection + UL
+{
+	padding-bottom: 50px;
 }
 .format__unsupported:before
 {

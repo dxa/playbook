@@ -3,6 +3,10 @@ layout: base
 title: Consulting with your community
 section: root
 ---
+{:.collection}
+![Community](img/community.svg)
+
+
 {:.page_head}
 # Consulting with your community
 

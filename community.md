@@ -3,6 +3,10 @@ layout: base
 title: What is a community
 section: root
 ---
+
+{:.collection}
+![Community](img/community.svg)
+
 {:.page_head}
 # What is a community
 

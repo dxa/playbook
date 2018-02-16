@@ -3,6 +3,10 @@ layout: base
 title: Writing good data definitions
 section: root
 ---
+{:.collection}
+![Standards](img/standards.svg)
+
+
 {:.page_head}
 # Writing good data definitions
 

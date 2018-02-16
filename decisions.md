@@ -3,6 +3,10 @@ layout: base
 title: Making a decision
 section: root
 ---
+{:.collection}
+![Standards](img/standards.svg)
+
+
 {:.page_head}
 # Making a decision and setting a standard
 
