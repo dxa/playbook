@@ -38,6 +38,6 @@ Data exchange takes two, after all.
 
 Once your community has had time to think about your position, and been given the opportunity to share theirs, it's time to choose the option that works the best for everyone.
 
-Read our [guide on making a decision](decisions.html) here
+Read our [guide on making a decision](decisions.html) here.
 
 It's likely that not everyone in your community will be able to support a single option, but it's important to make things work for as many people as possible.
