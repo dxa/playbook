@@ -336,3 +336,8 @@ CODE
 {
 	height: auto;
 }
+TABLE.horizontal_heading TD:first-child
+{
+	font-weight: bold;
+	width: 25%;
+}
