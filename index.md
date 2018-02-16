@@ -7,6 +7,11 @@ section: root
 {:.page_head}
 # Things in the playbook
 
+{:.sub_head}
+The playbook is a collection of guides to help develop and support digital exchange communities.
+These guides complement our [Definitions Catalogue](https://definitions.ausdx.tk) and [Services Catalogue](https://services.ausdx.tk), which together help make digital exchange in Australia simple, clear and fast.
+
+
 {:.collection}
 ![Community](img/community.svg)
 - [New to communities?](community.html) Learn about communities, and how to join or create one
