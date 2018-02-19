@@ -11,7 +11,7 @@ section: root
 # Your message format needs
 
 {:.sub_head}
-Although every message format is capable of representing any type of data, not all formats are well suited to information exchange.
+Although every message format is capable of representing any type of data, not all formats are well suited to all types of information exchange.
 
 {:.sub_head}
 Here are some scenarios that show which characteristics are important, using our [detailed format comparison table](/format.html#a-very-detailed-comparison) guide.
