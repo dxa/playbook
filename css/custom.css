@@ -353,3 +353,23 @@ TABLE.horizontal_heading TD:first-child
 	font-weight: bold;
 	width: 25%;
 }
+TABLE.boston_cube
+{
+	border: 2px solid black;
+	width: 50%;
+}
+TABLE.boston_cube TR TD:first-child
+{
+	transform: rotate(270deg);
+	font-weight: bold;
+	width: 10%;
+	text-align: center;
+	border: 0px;
+}
+TABLE.boston_cube TR TD
+{
+	border: 0.5px solid black;
+	border-spacing: 10px;
+	border-collapse: separate;
+	padding: 10px;
+}

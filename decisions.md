@@ -21,11 +21,22 @@ Ultimately you're responsible for the decisions you make. Take this list with a 
 
 {% include guide_nav.html %}
 
+## This shouldn't be surprising
+
+We find it's quite rare for good options to come out of the blue, so the options being placed in front of you shouldn't come as a surprise.
+
+The options should address pain points that you have been hearing about from inside, and outside your organisation.
+
+If you have genuinely been consulting with your community the process should be more of a formality than a decision.
+
 ## Trust your people
 
 The people you have working for you probably know more about this than you do.
 
 Ask your people which option they would take, and in plain language, why. They should be able to explain the pros, cons and impacts to the community.
+
+Ask them about the risks, consequences and next steps.
+
 
 You have these people for a reason, so take their opinions seriously.
 
@@ -33,6 +44,10 @@ You have these people for a reason, so take their opinions seriously.
 
 The choices you make might stay with this community for years.
 Spending a couple more weeks to get the best decision for the community is well worth any delays it may cause.
+
+If you aren't getting enough information to make a decision, go and observe the consultation.
+
+If you do choose to go and observe, be very mindful of the impact your presence might have on the process. Seriously consider participating anonymously, maybe by dialling in instead of participating in person.
 
 ## Make sure the community has a say
 
@@ -42,6 +57,12 @@ Don't mistake silence for acceptance. Not all members of your community need to 
 If you've done an exceptionally good job, your community might unanimously agree to your proposal. If this doesn't happen, look for evidence of suggestions coming from the community, and that they have been carefully considered by your people.
 
 Check who was consulted against your stakeholder plan. Not all your stakeholders need to be consulted, but you should be happy with the reason why any weren't.
+
+You should check to make sure that the views from the community are genuinely reflective of the entire community, and not a segment with a vested interest.
+
+Look for evidence that community members from different backgrounds, with different capabilities and perspectives are consulted. Don't be biased by the people who talk the loudest, have been there the longest, or who have invested the most.
+
+In a community, everyone's view is equally important.
 
 ## Don't gamble on technology
 
@@ -59,7 +80,13 @@ If you're certain about this technology choice, you will need mitigations in pla
 
 ## Get a peer review
 
-On behalf of all communities, we run a forum called the Architecture Reference Group (the ARG). The ARG is made up of business and technical architects across Government, both State and Federal.
+Consulting with your community is the only peer review that should matter when making a decision.
+
+But if you would like to hear about what this choice might mean for you, it's a good idea to ask people who have experienced it before,
+
+On behalf of all communities, we run a forum called the Architecture Reference Group (the ARG). The ARG is made up of business and technical architects across the public service, both State and Federal.
+
+The forum is only made available to public service representatives, keeping the conversation free from vendor or market bias.
 
 They meet quarterly, but can meet more regularly if needed.
 
@@ -74,3 +101,8 @@ If you've made it this far and you're happy with your choice, it's time to turn 
 
 {:.coming_soon}
 You can [read about how standards should be documented](#) here
+
+{:.coming_soon}
+Now is a good time to start [building your digital service roadmap](#).
+
+Your roadmap will plot out what other decisions need to be made, giving your community a clear vision for the future.
