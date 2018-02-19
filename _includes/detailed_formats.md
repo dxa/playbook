@@ -266,7 +266,7 @@
   <div class="grids col-xs-2 format"><span class="format__supported"><span class="format__support__text">Supported</span></span></div>
 </div>
 <div class="row format__row detail__row">
-  <div class="grids col-xs-4"><span>People with skills are available</span></div>
+  <div class="grids col-xs-4"><span>The data can be interpreted without needing to read other information</span></div>
   <div class="grids col-xs-2 format"><span class="format__supported">Yes</span></div>
   <div class="grids col-xs-2 format"><span class="format__supported">Yes</span></div>
   <div class="grids col-xs-2 format"><span class="format__maybe">Yes, if using column headings</span></div>
