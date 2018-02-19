@@ -133,7 +133,7 @@
   <div class="grids col-xs-2 format"><span class="format__unsupported">No standardised support</span></div>
 </div>
 <div class="row format__row format__group">
-  <div class="grids col-xs-4"><span>Transform</span></div>
+  <div class="grids col-xs-4"><span>Transformation</span></div>
   <div class="grids col-xs-2 format"><span class="format__maybe"><span class="format__support__text">Varies</span></span></div>
   <div class="grids col-xs-2 format"><span class="format__supported"><span class="format__support__text">Supported</span></span></div>
   <div class="grids col-xs-2 format"><span class="format__unsupported"><span class="format__support__text">Not Supported</span></span></div>
