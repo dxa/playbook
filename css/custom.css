@@ -209,9 +209,20 @@ CODE
 	{
 		display: none;
 	}
-	P.collection IMG
+	.collection IMG
 	{
-		max-width: 50%;
+		max-width: 80%;
+		margin: auto;
+		display: block;
+	}
+	.collection LI:last-child
+	{
+		padding-bottom: 70px !important;
+	}
+	HR
+	{
+		padding-bottom: 50px;
+		padding-top: 20px;
 	}
 }
 @media screen and (max-width: 768px)
@@ -227,6 +238,17 @@ CODE
 	.card__image
 	{
 		/*display: none;*/
+	}
+	.collection IMG
+	{
+		max-width: 80%;
+		margin: auto;
+		display: block;
+		padding-top: 70px;
+	}
+	.row UL
+	{
+		padding-bottom: 0px !important;
 	}
 }
 P.collection + UL
