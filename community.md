@@ -40,8 +40,7 @@ You can [check the list of communities](#) to see if one exists already.
 
 Each community has their own process for new members, but they'll describe that on their page.
 
-{:.coming_soon}
-Please also [let us know when you join](#) so we can let you know if anything major is happening.
+Please also [let us know when you join](mailto:alastair.parker@ato.gov.au?subject=I%27d%20like%20to%20join%20a%20community) so we can let you know if anything major is happening.
 
 ## Creating your own
 
@@ -49,5 +48,4 @@ If there aren't any existing communities that are suitable for your needs, then 
 
 It's a bit of work, but the effort you put in now will make a big difference to how effective your community is.
 
-{:.coming_soon}
-If you're going to create your own community, [get in touch](#). We'll walk you through it.
+If you're going to create your own community, [get in touch](mailto:alastair.parker@ato.gov.au?subject=I%27d%20like%20to%20make%20a%20new%20community). We'll walk you through it.
