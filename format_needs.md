@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Your message format needs
+title: Your data format needs
 section: root
 ---
 {:.collection}
@@ -8,10 +8,10 @@ section: root
 
 
 {:.page_head}
-# Your message format needs
+# Your data format needs
 
 {:.sub_head}
-Although every message format is capable of representing any type of data, not all formats are well suited to all types of information exchange.
+Although every data format is capable of representing any type of data, not all formats are well suited to information exchange.
 
 {:.sub_head}
 Here are some scenarios that show which characteristics are important, using our [detailed format comparison table](/format.html#a-very-detailed-comparison) guide.
@@ -121,6 +121,8 @@ This is a very general overview. It will help you get started, but you should re
 
 
 ## Alignment to technology
+
+Here are our thoughts on which technologies are well suited to the scenarios. Your needs may vary, so con
 
 {:.boston_cube}
 ||Automated|Interactive|

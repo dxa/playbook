@@ -28,5 +28,5 @@ These guides complement our [Definitions Catalogue](https://definitions.ausdx.tk
 
 {:.collection}
 ![Technology](img/technology.svg)
-- [Your data format needs ](format_needs.html)<br/>Not all message formats are created equal, and knowing what your data format needs are will help you propose the right one to your community
-- [Proposing a message format](format.html)<br/>Read about the different types of messaging formats that are commonly used, and what they are usually used for
+- [Your data format needs ](format_needs.html)<br/>Not all data formats are created equal, and knowing what your data format needs are will help you propose the right one to your community
+- [Proposing a data format](format.html)<br/>Read about the different types of messaging formats that are commonly used, and what they are usually used for

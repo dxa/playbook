@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Choosing a messaging format
+title: Proposing a data format
 section: root
 ---
 
@@ -9,10 +9,10 @@ section: root
 
 
 {:.page_head}
-# Proposing a messaging format
+# Proposing a data format
 
 {:.sub_head}
-A message format specifies the representation of data as it's exchanged.
+A data format specifies the representation of data as it's exchanged.
 
 {:.sub_head}
 It's important to balance between a format that is a good fit for your exchange patterns, and one that your community can support.
@@ -32,7 +32,7 @@ Here is a very simplified comparison of some prominently used formats, and how t
 |-------|--------|---------|
 | Large messages | Not really. Use high volume individual messages instead | Quite good if streamed, or with dedicated hardware | Quite good | Large in-memory overheads and is very verbose |
 | High volume | Very low processing overhead. JSON is used by internet giants like Facebook, Google & Twitter | Moderate processing overhead, but can be streamed. Specific hardware is available to process very large volumes | File based structure. Not suitable | High processing overhead |
-| Industry support | The industry's preferred message format | Globally supported | Available everywhere, but very rigid and inflexible | Very small and niche community. Very little commercial or open source tooling available |
+| Industry support | The industry's preferred data format | Globally supported | Available everywhere, but very rigid and inflexible | Very small and niche community. Very little commercial or open source tooling available |
 | Self describing | Through alternate design-time mechanisms like JSON Schema and Swagger | Capable of describing complex, simple and primitive types with metadata | Very limited, column based | Capable of describing attributes, facts, units and types to a very granular level |
 
 
@@ -60,7 +60,7 @@ On the flip side, choosing a format that expressly prevents online, mobile or cl
 
 Some formats are simple, others are more verbose.
 
-As you can see in the below examples, all message formats are capable of representing the same information.
+As you can see in the below examples, all data formats are capable of representing the same information.
 
 You should choose the option that was designed to solve the types of problems you have.
 
