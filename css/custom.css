@@ -395,3 +395,7 @@ TABLE.boston_cube TR TD
 	border-collapse: separate;
 	padding: 10px;
 }
+.hero_header IMG
+{
+	width: 25vw;
+}
