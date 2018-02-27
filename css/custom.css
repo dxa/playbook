@@ -250,6 +250,11 @@ CODE
 	{
 		padding-bottom: 0px !important;
 	}
+	P.collection + UL LI
+	{
+		width: 85%;
+		margin: auto;
+	}
 }
 P.collection + UL
 {
