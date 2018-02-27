@@ -407,3 +407,7 @@ TABLE.boston_cube TR TD
 {
 	width: 25vw;
 }
+.container LI A
+{
+	font-size: larger;
+}
