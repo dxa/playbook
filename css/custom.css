@@ -211,7 +211,7 @@ CODE
 	}
 	.collection IMG
 	{
-		max-width: 80%;
+		max-width: 100%;
 		margin: auto;
 		display: block;
 	}
@@ -254,6 +254,14 @@ CODE
 P.collection + UL
 {
 	padding-bottom: 50px;
+	width: 90%;
+	margin: auto;
+	padding-left: 0%;
+}
+P.collection + UL LI
+{
+	padding-bottom: 20px;
+	list-style: none;
 }
 .format__unsupported:before
 {

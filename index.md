@@ -16,6 +16,7 @@ These guides complement our [Definitions Catalogue](https://definitions.ausdx.io
 {::options parse_block_html="true" /}
 <div class="row">
 <div class="grids col-sm-5">
+
 {:.collection}
 ![Community](img/community.svg)
 - [New to communities?](community.html)<br/>Learn about communities, and how to join or create one
@@ -23,7 +24,7 @@ These guides complement our [Definitions Catalogue](https://definitions.ausdx.io
 
 </div>
 <div class="grids col-sm-1"></div>
-<div class="grids col-sm-5 collection">
+<div class="grids col-sm-5">
 
 {:.collection}
 ![Governance](img/governance.svg)
@@ -34,15 +35,18 @@ These guides complement our [Definitions Catalogue](https://definitions.ausdx.io
 
 {::options parse_block_html="true" /}
 <div class="row">
-<div class="grids col-sm-5 collection">
+<div class="grids col-sm-5">
+
+{:.collection}
 ![Standards](img/standards.svg)
 - [Making a decision and setting a standard](decisions.html)<br/>Once you've proposed an idea to your community, and had a chance to hear theirs, it's up to you to choose
 - [Writing good data definitions](definitions.html)<br/>Take a look at our suggestions for writing clear, simple and reusable data definitions
 
 </div>
 <div class="grids col-sm-1"></div>
-<div class="grids col-sm-5 collection">
+<div class="grids col-sm-5">
 
+{:.collection}
 ![Technology](img/technology.svg)
 - [Your data format needs ](format_needs.html)<br/>Not all data formats are created equal, and knowing what your data format needs are will help you propose the right one to your community
 - [Proposing a data format](format.html)<br/>Read about the different types of messaging formats that are commonly used, and what they are usually used for
