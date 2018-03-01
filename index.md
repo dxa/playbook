@@ -17,15 +17,14 @@ These guides complement our [Definitions Catalogue](https://definitions.ausdx.io
 
 Here is a map to guide you through the major steps in creating and participating in digital communities. We're writing guides for every point on the map, which are available at the bottom of the page.
 
+
 We have guides for all the underlined points, which are links you can click.
 
-<!--<svg viewBox="0 0 932 1895" width="100%">
-<use href="img/journey.svg#journey"></use>
-</svg>-->
-<!--<img src="img/journey.svg"/-->
-
-{:.journey}
-{% include journey.svg %}
+{::options parse_block_html="true" /}
+<div class="Journey" role="img">
+  <canvas class="Journey-canvas" height="1845px" width="932px"></canvas>
+  {% include journey.svg %}
+</div>
 
 <hr/>
 
