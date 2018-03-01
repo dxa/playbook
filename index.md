@@ -24,6 +24,9 @@ We have guides for all the underlined points, which are links you can click.
 <div class="Journey" role="img">
   <canvas class="Journey-canvas" height="1845px" width="932px"></canvas>
   {% include journey.svg %}
+
+  [Click here](/img/journey.png) for a larger image of the journey.
+
 </div>
 
 <hr/>
