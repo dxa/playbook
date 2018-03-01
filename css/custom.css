@@ -224,6 +224,16 @@ CODE
 		padding-bottom: 50px;
 		padding-top: 20px;
 	}
+	.journey
+	{
+		width: 60%;
+		/*display: block;*/
+		/*margin: auto !important;*/
+	}
+	.journey IMG
+	{
+		width: 100%;
+	}
 }
 @media screen and (max-width: 768px)
 {

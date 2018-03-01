@@ -14,12 +14,20 @@ section: root
 Although every data format is capable of representing any type of data, not all formats are well suited to information exchange.
 
 {:.sub_head}
-Here are some scenarios that show which characteristics are important, using our [detailed format comparison table](/format.html#a-very-detailed-comparison) guide.
+Here are some scenarios that show which characteristics are important, using our [detailed format comparison ](/format.html#a-very-detailed-comparison) guide.
 
 {% include guide_nav.html %}
 
 ## Disclaimer
 This is a very general overview. It will help you get started, but you should rely on your internal architects to help identify what your business and technical needs are.
+
+## Check the details
+
+We have written a [detailed format comparison](/format.html#a-very-detailed-comparison) guide.
+
+It has a very thorough comparison of common data formats.
+
+Be sure that the format you choose suits the types of needs you have.
 
 ## What we're comparing
 

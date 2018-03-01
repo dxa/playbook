@@ -5,13 +5,31 @@ section: root
 ---
 
 {:.page_head}
-# Things in the playbook
+# Your guide to digital communities
 
 {:.sub_head}
 The playbook is a collection of guides to help develop and support digital exchange communities.
 These guides complement our [Definitions Catalogue](https://definitions.ausdx.io) and [Services Catalogue](https://services.ausdx.io), which together help make digital exchange in Australia simple, clear and fast.
 
 <hr/>
+
+# Where am I in my journey
+
+Here is a map to guide you through the major steps in creating and participating in digital communities. We're writing guides for every point on the map, which are available at the bottom of the page.
+
+We have guides for all the underlined points, which are links you can click.
+
+<!--<svg viewBox="0 0 932 1895" width="100%">
+<use href="img/journey.svg#journey"></use>
+</svg>-->
+<!--<img src="img/journey.svg"/-->
+
+{:.journey}
+{% include journey.svg %}
+
+<hr/>
+
+# Things in the playbook
 
 {::options parse_block_html="true" /}
 <div class="grids col-sm-5">
