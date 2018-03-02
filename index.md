@@ -15,10 +15,10 @@ These guides complement our [Definitions Catalogue](https://definitions.ausdx.io
 
 # Where am I in my journey
 
-Here is a map to guide you through the major steps in creating and participating in digital communities. We're writing guides for every point on the map, which are available at the bottom of the page.
+Here is a map to guide you through the major steps in creating and participating in digital communities.
+All the guides we have so far are underlined on the map, and are links you can click.
 
-
-We have guides for all the underlined points, which are links you can click.
+You can also browse the guides by category, which is at the bottom of the page.
 
 {::options parse_block_html="true" /}
 <div class="Journey" role="img">
@@ -31,9 +31,10 @@ We have guides for all the underlined points, which are links you can click.
 
 <hr/>
 
-# Things in the playbook
+# Categories in the playbook
 
 {::options parse_block_html="true" /}
+<div class="row">
 <div class="grids col-sm-5">
 
 {:.collection}
@@ -41,6 +42,20 @@ We have guides for all the underlined points, which are links you can click.
 - [New to communities?](community.html)<br/>Learn about communities, and how to join or create one
 - [Consulting with your community](consult.html)<br/>No matter what governance model your community has, it's important to take the opinions of others into account
 
+</div>
+<div class="grids col-sm-1"></div>
+<div class="grids col-sm-5">
+
+{:.collection}
+![Governance](img/governance.svg)
+- [Self governance](governance.html)<br/>Every community governs themselves. Here are some approaches to take
+</div>
+</div>
+
+
+{::options parse_block_html="true" /}
+<div class="row">
+<div class="grids col-sm-5">
 
 {:.collection}
 ![Standards](img/standards.svg)
@@ -52,14 +67,8 @@ We have guides for all the underlined points, which are links you can click.
 <div class="grids col-sm-5">
 
 {:.collection}
-![Governance](img/governance.svg)
-- [Self governance](governance.html)<br/>Every community governs themselves. Here are some approaches to take
-
-
-{:.collection}
 ![Technology](img/technology.svg)
 - [Your data format needs ](format_needs.html)<br/>Not all data formats are created equal, and knowing what your data format needs are will help you propose the right one to your community
 - [Proposing a data format](format.html)<br/>Read about the different types of messaging formats that are commonly used, and what they are usually used for
-
 
 </div>
