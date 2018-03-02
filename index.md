@@ -41,6 +41,7 @@ You can also browse the guides by category, which is at the bottom of the page.
 ![Community](img/community.svg)
 - [New to communities?](community.html)<br/>Learn about communities, and how to join or create one
 - [Consulting with your community](consult.html)<br/>No matter what governance model your community has, it's important to take the opinions of others into account
+- [Reusing the definitions of others](reusing_definitions.html)<br/> Learn about our [Definitions Catalogue](https://definitions.ausdx.io) and how it helps you search for reusable data models and definitions
 
 </div>
 <div class="grids col-sm-1"></div>

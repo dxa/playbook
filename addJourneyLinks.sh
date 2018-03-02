@@ -34,6 +34,16 @@ echo '
       </a>
     </xsl:template>
 
+    <xsl:template match="svg:g[@serif:id='"'"'reusing the definitions of others'"'"']">
+      <a xmlns="http://www.w3.org/2000/svg"  xlink:href="/reusing_definitions.html">
+        <xsl:copy>
+            <xsl:attribute name="serif:id">reusing the definitions of others</xsl:attribute>
+            <xsl:attribute name="style">cursor:hand</xsl:attribute>
+            <xsl:apply-templates/>
+        </xsl:copy>
+      </a>
+    </xsl:template>
+
     <xsl:template match="svg:g[@serif:id='"'"'your data needs'"'"']">
       <a xmlns="http://www.w3.org/2000/svg" xlink:href="/format_neeeds.html">
         <xsl:copy>

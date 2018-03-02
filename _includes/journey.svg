@@ -371,19 +371,21 @@
         </text>
         <circle cx="112.8" cy="1667.2" r="5.6" style="fill:none;stroke:#00a1f4;stroke-width:4.5px"/>
       </g>
-      <g serif:id="reusing the definitions of others">
-        <path style="fill:#ebebeb" d="M194.9 1658.6H297v43.1H194.9z"/>
-        <text x="11" y="85.5" style="font-family:'Muli-Black', 'Muli';font-weight:900;font-size:22.42px;fill:#414141" transform="translate(189 1614.2) scale(.66905)">
-          reusing the
-        </text>
-        <text x="11" y="107.9" style="font-family:'Muli-Black', 'Muli';font-weight:900;font-size:22.42px;fill:#414141" transform="translate(189 1614.2) scale(.66905)">
-          definitions of
-        </text>
-        <text x="11" y="130.3" style="font-family:'Muli-Black', 'Muli';font-weight:900;font-size:22.42px;fill:#414141" transform="translate(189 1614.2) scale(.66905)">
-          others
-        </text>
-        <circle cx="182.1" cy="1656.3" r="6" style="fill:none;stroke:#00a1f4;stroke-width:4.5px"/>
-      </g>
+      <a xlink:href="/reusing_definitions.html">
+        <g serif:id="reusing the definitions of others" style="cursor:hand">
+          <path style="fill:#ebebeb" d="M194.9 1658.6H297v43.1H194.9z"/>
+          <text text-decoration="underline" x="11" y="85.5" style="font-family:'Muli-Black', 'Muli';font-weight:900;font-size:22.42px;fill:#414141" transform="translate(189 1614.2) scale(.66905)">
+            reusing the
+          </text>
+          <text text-decoration="underline" x="11" y="107.9" style="font-family:'Muli-Black', 'Muli';font-weight:900;font-size:22.42px;fill:#414141" transform="translate(189 1614.2) scale(.66905)">
+            definitions of
+          </text>
+          <text text-decoration="underline" x="11" y="130.3" style="font-family:'Muli-Black', 'Muli';font-weight:900;font-size:22.42px;fill:#414141" transform="translate(189 1614.2) scale(.66905)">
+            others
+          </text>
+          <circle cx="182.1" cy="1656.3" r="6" style="fill:none;stroke:#00a1f4;stroke-width:4.5px"/>
+        </g>
+      </a>
       <text x="61.4" y="91" style="font-family:'Muli-Black', 'Muli';font-weight:900;font-size:29.893px;fill:none;stroke:#ebebeb;stroke-width:16.44px;stroke-linecap:butt;stroke-miterlimit:1.41421" transform="translate(75.8 1552.8) scale(.66904)">
         data
       </text>
