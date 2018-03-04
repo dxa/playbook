@@ -265,6 +265,11 @@ CODE
 		width: 85%;
 		margin: auto;
 	}
+	DIV.Journey
+	{
+		display: block;
+		margin: 0 auto 40px;
+	}
 }
 P.collection + UL
 {

@@ -15,7 +15,7 @@ These guides complement our [Definitions Catalogue](https://definitions.ausdx.io
 
 # Where am I in my journey
 
-Here is a map to guide you through the major steps in creating and participating in digital communities.
+Here is a map to guide you through the major steps in creating and participating in digital exchange communities.
 All the guides we have so far are underlined on the map, and are links you can click.
 
 You can also browse the guides by category, which is at the bottom of the page.
