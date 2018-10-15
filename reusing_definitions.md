@@ -28,7 +28,7 @@ This guide will help you find definitions that you can reuse in your own communi
 
 ## Relationships between definitions
 
-The Definitions Catalogue allows definition authors to describe the relationships between definitions. These relationships help to more semantically describe the definitions, and to create more structured data models.
+The Definitions Catalogue allows definition authors to describe the relationships between definitions. These relationships  semantically describe the definitions and to create structured data models.
 
 We store relationships as [RDF triples](https://www.w3.org/TR/rdf-concepts/#section-data-model), giving definition authors lots of semantic flexibility.
 
@@ -38,7 +38,7 @@ The catalogue will generate UML class diagrams if definitions have the following
 
 ![Diagram showing how skos:member, skos:subClassOf, rdfs:related and rdfs:seeAlso are interpreted by the catalogue to generate class diagrams](img/semantic_relations.png)
 
-Here is an [example generated image](https://definitions.ausdx.io/definition/ce/ce1).
+Here is a definition from the catalogue with a [generated image](https://definitions.ausdx.io/definition/ce/ce1).
 
 ## Browsing by community
 {:.coming_soon}
@@ -47,4 +47,8 @@ Here is an [example generated image](https://definitions.ausdx.io/definition/ce/
 
 We've built an API you can use to integrate the definitions catalogue into your own tools and processes.
 
-Using our [Service Catalogue](https://services.ausdx.io/service/definitions-catalogue), you can read the documentation, try out live examples and generate code for the definitions catalogue API and many other government APIs.
+Using our [Service Catalogue](https://services.ausdx.io/service/definitions-catalogue) you can:
+
+- read the documentation,
+- try out live examples,
+- generate interface code

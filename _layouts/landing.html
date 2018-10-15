@@ -13,7 +13,7 @@
         <link rel="icon" type="image/png" href="https://cdn.rawgit.com/dxa/playbook/553e580/img/favicon-128.png" sizes="128x128" />
 
         <link href="https://fonts.googleapis.com/css?family=Muli:900" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdn.rawgit.com/dxa/service-catalogue/0c694de/src/main/resources/public/css/main.css" />
+        <link rel="stylesheet" href="/css/furnace.min.css" />
         <link rel="stylesheet" href="/css/custom.css" />
         <link rel="stylesheet" href="/css/common.css" />
 
@@ -43,30 +43,26 @@
         </style>
 
 </head>
-<body class="uikit-body uikit-grid">
+<body class="au-body au-grid">
 
 
     <section class="phase-banner">
-        <div class="wrapper uikit-grid container container-fluid">
-            This is an <a href="https://www.dta.gov.au/standard/service-design-and-delivery-process/" class="dss_stage_link">alpha</a>. If you find something wrong, <a href="https://github.com/dxa/playbook/issues/new" class="dss_stage_link">let us know</a>
+        <div class="wrapper au-grid container container-fluid">
+            This is an <a href="https://www.dta.gov.au/standard/service-design-and-delivery-process/" class="dss_stage_link">alpha</a>. If you find something wrong, <a href="https://github.com/ausdto/ausgovau/issues/new" class="dss_stage_link">let us know</a>
         </div>
     </section>
-    <a href="/">
-        <header class="uikit-header hero_header">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <h1 class="uikit-header-heading landing_heroline">
-                            <img class="hero_logo" src="img/hero_logo.png" style="width:20vw" alt="Australian Digital Exchange logo" />
-                            Digital Community Playbook
+    <header class="au-grid au-header au-header--hero au-header--dark hero_header" role="banner">
+            <div class="container" >
+
+                        <img class="hero_logo au-responsive-media-img" src="/img/header-logo-agov.png" alt="Australian Government logo"/>
+                        <h1 class="au-header-heading">
+                           Digital Community Playbook 
                             <span class="badge">ALPHA</span>
+                            <div class="au-header__subline">
+                                    <p>Helping communities to exchange digital data.</p>
+                            </div>
                         </h1>
-                        <span class="uikit-header-subline">Helping communities to exchange digital data.</span>
-                    </div>
-                </div>
-            </div>
         </header>
-    </a>
 
 
 
@@ -74,21 +70,25 @@
     {{content}}
 </main>
 
-
-
-    <footer class="uikit-footer">
+<div th:fragment="footer" th:remove="tag">
+    <footer class="au-footer footer">
         <div class="container">
             <div class="row">
-                <div class="col-sm-2 ie_footer_hook">
-                    <img class="uikit-responsive-media-img" src="https://cdn.rawgit.com/dxa/service-catalogue/0c694de/src/main/resources/public/img/coat-of-arms.png" alt="Commonwealth Coat of Arms crest logo" />
+                <div class="col-sm-4 ie_footer_hook">
+                    <img class="au-responsive-media-img coat-of-arms" src="/img/hero_logo.png" alt="api.gov.au logo" />
+                    <div class="joint-initiative">
+                        A joint initiative of the <a href="https://dta.gov.au">Digital&nbsp;Transformation&nbsp;Agency</a> and <a href="https://sbr.gov.au">Standard&nbsp;Business&nbsp;Reporting</a>
+                    </div>
                 </div>
-                <div class="col-sm-2 ie_footer_hook">
-                    <img class="uikit-responsive-media-img sbr_footer_logo" src="https://cdn.rawgit.com/dxa/service-catalogue/0c694de/src/main/resources/public/img/sbr.png" alt="Standard Business Reporting logo" />
+                <div class="col-sm-8 ie_footer_hook footer-phrase">
+                    <p class="copyright">© Commonwealth of Australia. With the exception of the Commonwealth Coat of Arms and where otherwise noted, this work is licensed under the <a href="https://github.com/ausdto/ausgovau">MIT license</a></p>
                 </div>
-                <div class="col-sm-8 ie_footer_hook footer-phrase">This site is part of the Standard Business Reporting program.<br />Visit <a style="font-weight: bold;" href="https://sbr.gov.au/">sbr.gov.au</a> to find out more.</div>
             </div>
         </div>
     </footer>
+</div>
+
+
 
 </body>
 </html>

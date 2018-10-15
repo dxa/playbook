@@ -2,6 +2,11 @@
 {
 	margin-bottom: 0px !important;
 }
+MAIN.container
+{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
 .uikit-link-list LI A
 {
 	margin-left: 2rem;
@@ -224,9 +229,10 @@ CODE
 		padding-bottom: 50px;
 		padding-top: 20px;
 	}
-	.journey
+	.Journey
 	{
-		width: 60%;
+		/*width: 60%;*/
+		/*height: 100vh !important;*/
 		/*display: block;*/
 		/*margin: auto !important;*/
 	}

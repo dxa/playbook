@@ -4,7 +4,7 @@
 <p>This list isn't an authoritative source, but it is based on our experiences with the technologies. Let us know if you disagree with our findings, and we can talk about changing things.</p>
 
 
-<div class="uikit-page-alerts uikit-page-alerts--warning hide_from_desktop" role="alert">
+<div class="au-page-alerts au-page-alerts--warning hide_from_desktop" role="alert">
 	<h3>You're not getting the whole story</h3>
 	<p>Most of the detail has been hidden because you're on a mobile device</p>
   <p>Check on a desktop to see the full table</p>
