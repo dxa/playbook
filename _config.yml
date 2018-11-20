@@ -1,7 +1,7 @@
 title: DXA playbook
 description: Digital Exchange Australia playbook
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://playbook.ausdx.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/playbook" # the subpath of your site, e.g. /blog
+url: "https://api.gov.au" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 # Build settings

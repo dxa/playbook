@@ -25,7 +25,7 @@ echo '
     </xsl:template>
 
     <xsl:template match="svg:g[@serif:id='"'"'new to communities'"'"']">
-      <a xmlns="http://www.w3.org/2000/svg"  xlink:href="/community.html">
+      <a xmlns="http://www.w3.org/2000/svg"  xlink:href="/playbook/community.html">
         <xsl:copy>
             <xsl:attribute name="serif:id">new to communities</xsl:attribute>
             <xsl:attribute name="style">cursor:hand</xsl:attribute>
@@ -35,7 +35,7 @@ echo '
     </xsl:template>
 
     <xsl:template match="svg:g[@serif:id='"'"'reusing the definitions of others'"'"']">
-      <a xmlns="http://www.w3.org/2000/svg"  xlink:href="/reusing_definitions.html">
+      <a xmlns="http://www.w3.org/2000/svg"  xlink:href="/playbook/reusing_definitions.html">
         <xsl:copy>
             <xsl:attribute name="serif:id">reusing the definitions of others</xsl:attribute>
             <xsl:attribute name="style">cursor:hand</xsl:attribute>
@@ -45,7 +45,7 @@ echo '
     </xsl:template>
 
     <xsl:template match="svg:g[@serif:id='"'"'your data needs'"'"']">
-      <a xmlns="http://www.w3.org/2000/svg" xlink:href="/format_needs.html">
+      <a xmlns="http://www.w3.org/2000/svg" xlink:href="/playbook/format_needs.html">
         <xsl:copy>
             <xsl:attribute name="serif:id">your data needs</xsl:attribute>
             <xsl:attribute name="style">cursor:hand</xsl:attribute>
@@ -55,7 +55,7 @@ echo '
     </xsl:template>
 
     <xsl:template match="svg:g[@serif:id='"'"'writing good definitions'"'"']">
-      <a xmlns="http://www.w3.org/2000/svg" xlink:href="/definitions.html">
+      <a xmlns="http://www.w3.org/2000/svg" xlink:href="/playbook/definitions.html">
         <xsl:copy>
             <xsl:attribute name="serif:id">writing good definitions</xsl:attribute>
             <xsl:attribute name="style">cursor:hand</xsl:attribute>
@@ -65,7 +65,7 @@ echo '
     </xsl:template>
 
     <xsl:template match="svg:g[@serif:id='"'"'consulting'"'"']">
-      <a xmlns="http://www.w3.org/2000/svg"  xlink:href="/consult.html">
+      <a xmlns="http://www.w3.org/2000/svg"  xlink:href="/playbook/consult.html">
         <xsl:copy>
             <xsl:attribute name="serif:id">consulting</xsl:attribute>
             <xsl:attribute name="style">cursor:hand</xsl:attribute>
@@ -75,7 +75,7 @@ echo '
     </xsl:template>
 
     <xsl:template match="svg:g[@id='"'"'consulting'"'"']">
-      <a xmlns="http://www.w3.org/2000/svg"  xlink:href="/consult.html">
+      <a xmlns="http://www.w3.org/2000/svg"  xlink:href="/playbook/consult.html">
         <xsl:copy>
             <xsl:attribute name="serif:id">consulting</xsl:attribute>
             <xsl:attribute name="style">cursor:hand</xsl:attribute>
@@ -85,7 +85,7 @@ echo '
     </xsl:template>
 
     <xsl:template match="svg:g[@serif:id='"'"'deciding'"'"']">
-      <a xmlns="http://www.w3.org/2000/svg"  xlink:href="/decisions.html">
+      <a xmlns="http://www.w3.org/2000/svg"  xlink:href="/playbook/decisions.html">
         <xsl:copy>
             <xsl:attribute name="serif:id">deciding</xsl:attribute>
             <xsl:attribute name="style">cursor:hand</xsl:attribute>
@@ -95,7 +95,7 @@ echo '
     </xsl:template>
 
     <xsl:template match="svg:g[@id='"'"'deciding'"'"']">
-      <a xmlns="http://www.w3.org/2000/svg"  xlink:href="/decisions.html">
+      <a xmlns="http://www.w3.org/2000/svg"  xlink:href="/playbook/decisions.html">
         <xsl:copy>
             <xsl:attribute name="serif:id">deciding</xsl:attribute>
             <xsl:attribute name="style">cursor:hand</xsl:attribute>
@@ -105,7 +105,7 @@ echo '
     </xsl:template>
 
     <xsl:template match="svg:g[@id='"'"'governance'"'"']">
-      <a xmlns="http://www.w3.org/2000/svg"  xlink:href="/governance.html">
+      <a xmlns="http://www.w3.org/2000/svg"  xlink:href="/playbook/governance.html">
         <xsl:copy>
             <xsl:attribute name="id">governance</xsl:attribute>
             <xsl:attribute name="style">cursor:hand</xsl:attribute>
