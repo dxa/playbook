@@ -130,7 +130,8 @@ Be sure that the format you choose suits the types of needs you have.
 
 ## Alignment to technology
 
-Here are our thoughts on which technologies are well suited to the scenarios. Your needs may vary, so con
+Here are our thoughts on which technologies are well suited to the scenarios. Your needs may vary, so consider your circumstances and the needs of your users before making any decisions.
+
 
 {:.boston_cube}
 ||Automated|Interactive|
