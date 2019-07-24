@@ -1,7 +1,8 @@
 <!DOCTYPE html>
+
 <html>
 <head>
-
+    
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-61222473-22"></script>
         <script>
@@ -10,22 +11,23 @@
             gtag('js', new Date());
             gtag('config', 'UA-61222473-22');
         </script>
+
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-
-  <title>Digital Community Playbook</title>
-
-        <link rel="icon" type="image/png" href="https://cdn.rawgit.com/dxa/playbook/553e580/img/favicon-196x196.png" sizes="196x196" />
-        <link rel="icon" type="image/png" href="https://cdn.rawgit.com/dxa/playbook/553e580/img/favicon-32x32.png" sizes="32x32" />
-        <link rel="icon" type="image/png" href="https://cdn.rawgit.com/dxa/playbook/553e580/img/favicon-16x16.png" sizes="16x16" />
-        <link rel="icon" type="image/png" href="https://cdn.rawgit.com/dxa/playbook/553e580/img/favicon-128.png" sizes="128x128" />
-
-        <link href="https://fonts.googleapis.com/css?family=Muli:900" rel="stylesheet">
-        <link rel="stylesheet" href="/css/furnace.min.css" />
-        <link rel="stylesheet" href="/css/custom.css" />
-        <link rel="stylesheet" href="/css/common.css" />
-
-        <style>
+    
+    <title>Playbook</title>
+    
+        <link rel="icon" type="image/png" href="/img/favicon-196x196.png" sizes="196x196" />
+        <link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32" />
+        <link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16" />
+        <link rel="icon" type="image/png" href="/img/favicon-128.png" sizes="128x128" />
+    
+    
+        <link rel="stylesheet" href="/playbook/css/furnace.min.css" />
+        <link rel="stylesheet" href="/playbook/css/custom.css" />
+        <link rel="stylesheet" href="/playbook/css/common.css" />
+   
+      <style>
           .Journey {
             display: inline-block;
             height: 1400px;
@@ -45,31 +47,65 @@
             height: 100%;
             left: 0;
             position: absolute;
+
             top: 0;
             width: 100%;
           }
         </style>
-
+ 
 </head>
 <body class="au-body au-grid">
 
 
     <section class="phase-banner">
         <div class="wrapper au-grid container container-fluid">
-            This is an <a href="https://www.dta.gov.au/standard/service-design-and-delivery-process/" class="dss_stage_link">alpha</a>. If you find something wrong, <a href="https://github.com/apigovau/playbook/issues/new" class="dss_stage_link">let us know</a>
+            This is an <a href="https://www.dta.gov.au/standard/service-design-and-delivery-process/" class="dss_stage_link">alpha</a>. If you find something wrong, <a href="https://github.com/apigovau/api-gov-au-definitions/issues/new" class="dss_stage_link">let us know</a>
         </div>
     </section>
     <header class="au-grid au-header au-header--hero au-header--dark hero_header" role="banner">
-            <div class="container" >
+            <div class="container">
 
-                        <img class="hero_logo au-responsive-media-img" src="/img/header-logo-agov.png" alt="Australian Government logo"/>
+                
+                        <img class="hero_logo au-responsive-media-img" alt="Australian Government logo" src="/definitions/img/header-logo-agov.png" />
                         <h1 class="au-header-heading">
                            Digital Community Playbook 
                             <span class="badge">ALPHA</span>
                             <div class="au-header__subline">
-                                    <p>Helping communities to exchange digital data.</p>
+                                    <p>Helping communities share digital data.</p>
                             </div>
                         </h1>
+                
+                
+            </div>
+
+            <nav class="au-main-nav" aria-label="main navigation">
+                <input type="checkbox" id="menu">
+                    <label for="menu">☰ Menu</label>
+                </input>
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <div id="main-nav-default" class="au-main-nav__content">
+                           <div class="au-main-nav__menu">
+                              <div class="au-main-nav__menu-inner">
+                                 <div class="au-main-nav__focus-trap-top"></div>
+                                    <ul class="au-link-list">
+                                         <li><a href="/">About Us</a></li>
+                                         <li><a href="/apis">Discover APIs</a></li>
+                                         <li><a href="/share">Share an API</a></li>
+                                         <li><a href="/definitions">Data Definitions</a></li>
+                                         <li class="active"><a href="/playbook">Playbook</a></li>
+                                         <li><a href="/community/">Community</a></li>
+                                         <li class="githubLink"><a target="_blank" href="https://github.com/apigovau/api-gov-au">Github</a></li>
+                                      </ul>
+                                 <div class="au-main-nav__focus-trap-bottom"></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </nav>
         </header>
 
 
@@ -78,28 +114,29 @@
     {{content}}
 </main>
 
-<div th:fragment="footer" th:remove="tag">
+</div>
+
+
     <footer class="au-footer footer">
         <div class="container">
             <div class="row">
                 <div class="col-sm-4 ie_footer_hook">
-                    <img class="au-responsive-media-img coat-of-arms" src="/img/hero_logo.png" alt="api.gov.au logo" />
+                        <img class="au-responsive-media-img coat-of-arms" alt="api.gov.au logo" src="/definitions/img/hero_logo.png" />
                     <div class="joint-initiative">
                         A joint initiative of the <a href="https://dta.gov.au">Digital&nbsp;Transformation&nbsp;Agency</a> and <a href="https://sbr.gov.au">Standard&nbsp;Business&nbsp;Reporting</a>
                     </div>
                 </div>
-               <div class="footer-links">
+                <div class="footer-links">
                     <ul>
                         <li><a href="/disclaimer">Disclaimer</a></li>
                     </ul>
                 </div>
-  <div class="col-sm-8 ie_footer_hook footer-phrase">
-                    <p class="copyright">© Commonwealth of Australia. With the exception of the Commonwealth Coat of Arms and where otherwise noted, this work is licensed under the <a href="https://github.com/apigovau/playbook">MIT license</a></p>
+                <div class="col-sm-8 ie_footer_hook footer-phrase">
+                    <p class="copyright">© Commonwealth of Australia. With the exception of the Commonwealth Coat of Arms and where otherwise noted, this work is licensed under the <a href="https://github.com/apigovau/api-gov-au-definitions">MIT license</a></p>
                 </div>
             </div>
         </div>
     </footer>
-</div>
 
 
 

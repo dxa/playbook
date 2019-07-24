@@ -346,7 +346,7 @@ input:focus + label {
     flex-direction: column;
     border-bottom: 1px solid rgb(162, 162, 162);
     padding-bottom: 40px;
-    padding-top: 80px;
+    padding-top: 50px;
     margin-left: 10px !important;
 }
 
@@ -356,7 +356,7 @@ input:focus + label {
 }
 
 .footer .footer-links li {
-    display: inline;
+    display: block;
 }
 
 .footer .footer-links li a {
@@ -490,4 +490,36 @@ ul.pagination_controls li {
 body a {
     color: black !important;
     text-decoration-color: #1B7991 !important;
+}
+
+
+
+.api_nav P
+{
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+.api_nav LI
+{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    font-size: smaller;
+}
+.api_nav
+{
+    border-right: 1px solid lightgray;
+}
+.api_nav .current_page
+{
+    background: #313131;
+    padding-left: 10px;
+}
+.api_nav .current_page A
+{
+    color: white !important;
 }
